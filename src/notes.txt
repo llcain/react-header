@@ -1,0 +1,1 @@
+Google - import image react from image folder in src folder -  https://stackoverflow.com/questions/37644265/correct-path-for-img-on-react-js
