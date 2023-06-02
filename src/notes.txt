@@ -1,1 +1,7 @@
 Google - import image react from image folder in src folder -  https://stackoverflow.com/questions/37644265/correct-path-for-img-on-react-js
+Google - adding bootstrap version 4 in react app -  https://www.pluralsight.com/guides/how-to-use-react-bootstrap-with-npm
+Google - adding bootstrap version 4 in react app - https://www.pluralsight.com/guides/how-to-use-react-bootstrap-with-npm
+Google - installing sass in react - https://create-react-app.dev/docs/adding-a-sass-stylesheet/ - https://create-react-app.dev/docs/adding-a-sass-stylesheet/
+Google - expected newline sass - https://stackoverflow.com/questions/56858150/i-am-gettiing-an-error-expected-new-line-while-compiling-sass - 
+Google - font size variable scss - https://codebots.com/docs/setting-up-scss-variables
+https://www.educative.io/courses/building-teslas-battery-range-calculator-with-react-and-redux/N8X8m6LG8Vp
