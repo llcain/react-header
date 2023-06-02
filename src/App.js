@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          LaQuisha Cain
         </a>
       </header>
     </div>
