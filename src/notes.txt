@@ -7,3 +7,4 @@ Google - font size variable scss - https://codebots.com/docs/setting-up-scss-var
 https://www.educative.io/courses/building-teslas-battery-range-calculator-with-react-and-redux/N8X8m6LG8Vp
 https://www.makeuseof.com/react-sass-how-use/
 Google - listing directory live server - 
+Google - how to put react on aws s3 - https://medium.com/boca-code/deploy-your-react-app-to-aws-s3-bucket-and-with-ci-cd-1c9ce03023c2 - https://medium.com/boca-code/deploy-your-react-app-to-aws-s3-bucket-and-with-ci-cd-1c9ce03023c2
