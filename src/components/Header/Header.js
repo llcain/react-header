@@ -1,10 +1,20 @@
 import React from "react";
-import image from '../../image/Art.jpg';
+// import image from '../../image/Art.jpg';
 
 const Header = () => (
     <div className="header">
-        <h2>Test</h2>
-        <img src={image} alt="Art"/>
+        <nav>
+            <div className="logo">
+                Logo
+            </div>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        
+        {/* <img src={image} alt="Art"/> */}
         
     </div>
 )
