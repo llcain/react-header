@@ -2,7 +2,7 @@ import React from "react";
 // import image from '../../image/Art.jpg';
 
 const Header = () => (
-    <div className="header">
+    <header className="header">
         <nav className="navbar">
             <div className="logo">
                 Logo
@@ -10,13 +10,13 @@ const Header = () => (
             <ul className="nav-links">
                 <li>home</li>
                 <li>about</li>
-                <li>Contact</li>
+                <li>contact</li>
             </ul>
         </nav>
         
         {/* <img src={image} alt="Art"/> */}
         
-    </div>
+    </header>
 )
 
 export default Header;

@@ -2,11 +2,13 @@ $color-secondary: rgb(91, 15, 211);
 
 .header {
   color: $color-secondary;
-  display: inline;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .navbar {
   display: flex;
+  
   
 }
 
