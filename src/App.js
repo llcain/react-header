@@ -10,18 +10,20 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 
+
 function App() {
   return (
     <Router>
-        <div className='App'>
+      <div className='App'>
         <Header />
         <Routes>
           <Route path="/" exact element={<Home/>} />
           <Route path="/about" exact element={<About/>} />
           <Route path="/contact" exact element={<Contact/>} />
         </Routes>
-        </div>
-      </Router>
+      
+      </div>
+    </Router>
   );
 }
 
