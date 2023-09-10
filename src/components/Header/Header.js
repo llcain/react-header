@@ -3,11 +3,11 @@ import React from "react";
 
 const Header = () => (
     <div className="header">
-        <nav>
+        <nav className="navbar">
             <div className="logo">
                 Logo
             </div>
-            <ul>
+            <ul className="nav-links">
                 <li>home</li>
                 <li>about</li>
                 <li>Contact</li>

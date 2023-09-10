@@ -4,3 +4,18 @@ $color-secondary: rgb(91, 15, 211);
   color: $color-secondary;
   display: inline;
 }
+
+.navbar {
+  display: flex;
+  
+}
+
+.nav-links {
+  display: flex;
+  margin: 15px;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px;
+}

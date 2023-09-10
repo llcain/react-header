@@ -1,4 +1,18 @@
 .header {
   color: rgb(91, 15, 211);
   display: inline;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  margin: 15px;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px;
 }/*# sourceMappingURL=Header.css.map */
