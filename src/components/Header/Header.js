@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 // import image from '../../image/Art.jpg';
 
 const Header = () => (
@@ -8,9 +9,17 @@ const Header = () => (
                 Logo
             </div>
             <ul className="nav-links">
-                <li>home</li>
-                <li>about</li>
-                <li>contact</li>
+                <Link to='/'>
+                    <li>home</li>
+                </Link>
+                <Link to='/about'>
+                    <li>About</li>
+                </Link>
+                <Link to='/contact'>
+                    <li>Contact</li>
+                </Link>
+                
+                
             </ul>
         </nav>
         

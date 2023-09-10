@@ -1,9 +1,11 @@
 $color-secondary: rgb(91, 15, 211);
+$color-primary: tan;
 
 .header {
   color: $color-secondary;
   width: 80%;
   margin: 0 auto;
+  background-color: $color-primary;
 }
 
 .navbar {
