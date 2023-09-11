@@ -4,3 +4,41 @@
 //   background-color: $background-color ;
 // }
 
+
+.row {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.about-col {
+    display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.about-col p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.about-section {
+    width: 80%;
+    margin: 0 auto;
+    background: lightblue;
+}
+
+.about-img {
+    width: 450px;
+    height: 450pxpx;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
