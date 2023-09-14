@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from 'react-router-dom';
 // import image from '../../image/Art.jpg';
 
+const title = "Text Box header";
+
 const Header = () => (
     <header className="header">
         <nav className="navbar">
@@ -22,6 +24,9 @@ const Header = () => (
                 
             </ul>
         </nav>
+        <div className="text-box">
+            <h2>{ title }</h2>
+        </div>
         
         {/* <img src={image} alt="Art"/> */}
         
