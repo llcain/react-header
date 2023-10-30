@@ -7,22 +7,26 @@ const title = "Text Box header";
 const Header = () => (
     <header className="header">
         <nav className="navbar">
-            <div className="logo">
-                Logo
-            </div>
-            <ul className="nav-links">
+            <Link to="/">
+                <a href="/" className="nav-logo">GANNETT</a>
+            </Link>
+            <ul className="nav-menu">
                 <Link to='/'>
-                    <li>home</li>
+                    <li className="nav-item">home</li>
                 </Link>
                 <Link to='/about'>
-                    <li>About</li>
+                    <li className="nav-item">About</li>
                 </Link>
                 <Link to='/contact'>
-                    <li>Contact</li>
-                </Link>
-                
+                    <li className="nav-item">Contact</li>
+                </Link>     
                 
             </ul>
+            <div className="hamburger">
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+            </div>
         </nav>
         <div className="text-box">
             <h2>{ title }</h2>

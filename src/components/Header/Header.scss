@@ -3,23 +3,26 @@ $color-primary: tan;
 
 .header {
   color: $color-secondary;
-  width: 80%;
-  margin: 0 auto;
+  
   background-color: $color-primary;
 }
 
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
   
   
 }
 
-.nav-links {
-  display: flex;
-  margin: 15px;
-}
+
 
 li {
   list-style-type: none;
-  margin: 20px;
+
+}
+
+a {
+  text-decoration: none;
 }
