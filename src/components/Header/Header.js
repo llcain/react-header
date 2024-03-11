@@ -36,6 +36,7 @@ const Header = () => (
         </nav>
         <div className="text-box">
             <h2>{ title }</h2>
+            <p>Come to Us For Your Commercial Printing Needs!</p>
         </div>
         
         {/* <img src={image} alt="Art"/> */}
