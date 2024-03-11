@@ -6,10 +6,11 @@ const title = "Text Box header";
 
 const Header = () => (
     <header className="header">
+        <Link to="/">
+            <a href="/" className="nav-logo">GANNETT</a>
+        </Link>
         <nav className="navbar">
-            <Link to="/">
-                <a href="/" className="nav-logo">GANNETT</a>
-            </Link>
+                
             <ul className="nav-menu">
                 <Link to='/'>
                     <li className="nav-item">home</li>
@@ -25,7 +26,7 @@ const Header = () => (
                 </Link>
                 <Link to='/contact'>
                     <li className="nav-item">Contact</li>
-                </Link>     
+                </Link>   
                 
             </ul>
             <div className="hamburger">

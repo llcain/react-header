@@ -1,19 +1,21 @@
 $color-secondary: rgb(91, 15, 211);
-$color-primary: tan;
+
 
 .header {
   color: $color-secondary;
-  width: 1500px;
+
   margin: auto;
   
-  background-color: $color-primary;
+  background-image: url("../../image/logoIMG.jpg");
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
+ display: flex;
+
+ justify-content: space-between;
+ width: 1500px;
+ margin: auto;
+ background-color: green;
   
   
 }
