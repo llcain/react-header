@@ -10,6 +10,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import WhatWeDo from './components/WhatWeDo';
+import Testimonials from './components/Testimonials';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" exact element={<Home/>} />
           <Route path="/about" exact element={<About/>} />
           <Route path="/whatwedo" exact element={<WhatWeDo/>} />
+          <Route path="/testimonials" exact element={<Testimonials />} />
           <Route path="/contact" exact element={<Contact/>} />
         </Routes>
         </Router>      
