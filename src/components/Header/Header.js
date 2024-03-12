@@ -8,11 +8,11 @@ const title = "GPS";
 
 const Header = () => (
     <header className="header image" style={{ backgroundImage: `url(${background})`}}>
-        <Link to="/">
-            <a href="/" className="nav-logo">GANNETT</a>
-        </Link>
+       
         <nav className="navbar">
-                
+            <Link to="/">
+                <a href="/" className="nav-logo">GANNETT</a>
+            </Link>                
             <ul className="nav-menu">
                 <Link to='/'>
                     <li className="nav-item">home</li>

@@ -5,14 +5,13 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: palevioletred;
-  background-position: center;
-  
-  width: 100vw;
-  
+  background-position: center;  
+  width: 100vw; 
 }
 
 .navbar {
  display: flex;
+ align-items: center;
 
  justify-content: space-between;
  width: 1522px;
