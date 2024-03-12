@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import background from "../../image/IMG_20230717_141730136.jpg";
 
 
-const title = "Text Box header";
+const title = "GPS";
 
 
 const Header = () => (
