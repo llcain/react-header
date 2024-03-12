@@ -1,12 +1,14 @@
 $color-secondary: rgb(91, 15, 211);
 
-
-.header {
-  color: $color-secondary;
-
-  margin: auto;
-  
+header {
   background-image: url("../../image/logoIMG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: palevioletred;
+  background-position: center;
+  
+  width: 100vw;
+  
 }
 
 .navbar {
@@ -15,8 +17,7 @@ $color-secondary: rgb(91, 15, 211);
  justify-content: space-between;
  width: 1500px;
  margin: auto;
- background-color: green;
-  
+ background-color: $color-secondary; 
   
 }
 

@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-// import image from '../../image/Art.jpg';
+import background from "../../image/IMG_20230717_141730136.jpg";
+
 
 const title = "Text Box header";
 
+
 const Header = () => (
-    <header className="header">
+    <header className="header image" style={{ backgroundImage: `url(${background})`}}>
         <Link to="/">
             <a href="/" className="nav-logo">GANNETT</a>
         </Link>
@@ -40,7 +42,6 @@ const Header = () => (
             <p>Come to Us For Your Commercial Printing Needs!</p>
         </div>
         
-        {/* <img src={image} alt="Art"/> */}
         
     </header>
 )
