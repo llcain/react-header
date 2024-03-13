@@ -10,32 +10,29 @@ const Header = () => (
     <header className="header image" style={{ backgroundImage: `url(${background})`}}>
        
         <nav className="navbar">
-            <Link to="/">
-                <a href="/" className="nav-logo">GANNETT</a>
-            </Link>                
+            <Link to="/">GANNETT</Link>                
             <ul className="nav-menu">
-                <Link to='/'>
-                    <li className="nav-item">home</li>
-                </Link>
-                <Link to='/about'>
-                    <li className="nav-item">About</li>
-                </Link>
-                <Link to='/whatwedo'>
-                    <li className="nav-links">What We Do</li>
-                </Link>
-                <Link to='/testimonials'>
-                    <li className="nav-links">Testimonials</li>
-                </Link>
-                <Link to='/contact'>
-                    <li className="nav-item">Contact</li>
-                </Link>   
-                
+                <li class="nav-links">
+                    <Link to='/'>Home</Link>
+                </li>
+                <li class="nav-links">
+                    <Link to='/about'>About</Link>
+                </li>
+                <li class="nav-links">
+                    <Link to='/whatwedo'>What We Do</Link>
+                </li>
+                <li class="nav-links">
+                    <Link to='/testomonials'>Testomonials</Link>
+                </li>
+                <li class="nav-links">
+                    <Link to='/contact'>Contact</Link>
+                </li>               
             </ul>
-            <div className="hamburger">
+            {/* <div className="hamburger">
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
-            </div>
+            </div> */}
         </nav>
         <div className="text-box">
             <h2>{ title }</h2>

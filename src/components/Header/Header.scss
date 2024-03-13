@@ -9,27 +9,37 @@ header {
   width: 100vw; 
 }
 
+
 .navbar {
  display: flex;
  align-items: center;
+ padding: 70px;
+ font-size: 20px;
+ 
 
- justify-content: space-between;
+ justify-content: space-evenly;
  width: 1522px;
  margin: auto;
- background-color: $color-secondary; 
+ background-color: $color-secondary;   
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+ display: inline;
+ margin-right: 30px;
   
 }
 
-
-
-li {
-  list-style-type: none;
-
-}
-
-a {
+ul a {
   text-decoration: none;
 }
+
+
 
 .text-box {
   width: 400px;
