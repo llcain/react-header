@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import background from "../../image/IMG_20230717_141730136.jpg";
-import Layout from "../Layout/Layout";
+
 
 
 const title = "GPS";
 
 
 const Header = () => (
-    <Layout>    
+       
         <header className="header image" style={{ backgroundImage: `url(${background})`}}>
         
             <nav className="navbar">
@@ -43,7 +43,7 @@ const Header = () => (
             
             
         </header>
-    </Layout>
+    
 )
 
 export default Header;
