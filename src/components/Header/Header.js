@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import background from "../../image/IMG_20230717_141730136.jpg";
+import background from '../../image/logoIMG.jpg';
 
 
 
@@ -9,7 +9,7 @@ const title = "GPS";
 
 const Header = () => (
        
-        <header className="header image" style={{ backgroundImage: `url(${background})`}}>
+        <header className="header" style={{ backgroundImage: `url(${background})`}}>
         
             <nav className="navbar">
                 <Link to="/">GANNETT</Link>                
