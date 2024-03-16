@@ -2,9 +2,11 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
+import Layout from './Layout/Layout';
 
 const Home = () => {
     return (
+      <Layout>
       <div style={{ display: 'block', width: 960, padding: 30 }}>
       <h4>React-Bootstrap Col Component</h4>
       <Row>
@@ -41,6 +43,7 @@ const Home = () => {
       </Col>
       </Row>
     </div>
+    </Layout>
     );
 }
     
