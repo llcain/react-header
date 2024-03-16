@@ -1,8 +1,10 @@
 import React from "react";
 import PhotoIMG1 from '../image/photoIMG1.jpg';
+import Layout from "./Layout/Layout";
 
 const About = () => {
     return (
+        <Layout>
         <section className="about-section">
             <div className="row">
                 <div className="about-col">
@@ -29,6 +31,7 @@ const About = () => {
                 </div>
             </div>
         </section>
+        </Layout>
     )
 };
     
