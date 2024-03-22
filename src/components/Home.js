@@ -12,39 +12,39 @@ const Home = () => {
       <Layout>
         <div className='container-lg my-5'>
           <Row className="row">
-            <Col className='col'>
+            <Col className='col-sm-6'>
               <div className="p-5 bg-primary text-light">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>              
             </Col>
-            <Col className='col'>
+            <Col className='col-sm-6'>
               <div>
                 <img src={bindery} alt='bindery' />
               </div>
             </Col>
           </Row>
           <Row className="row">
-            <Col className='col'>
+            <Col className='col-sm-6'>
               <div className="p-5 bg-primary text-light">
                 <img src={customer1} alt='Weekly Trder customer'/>
               </div>              
             </Col>
-            <Col className='col'>
+            <Col className='col-sm-6'>
               <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </Col>
           </Row>
           <Row className="row">
-            <Col className='col'>
+            <Col className='col-sm-6'>
               <div className="p-5 bg-primary text-light">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>              
             </Col>
-            <Col className='col'>
+            <Col className='col-sm-6'>
               <div>
-                <img src={Belleville} alt='bindery' />
-              </div>
+                <img src={Belleville} alt='Belleville Customer' />
+              </div>             
             </Col>
           </Row>
         </div>

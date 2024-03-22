@@ -1,8 +1,9 @@
 import React from "react";
 
+
 const Footer = () => {
     return(
-        <h2>GANNETT</h2>
+        <h2 className="red-text">GANNETT</h2>
     )
 
 }
