@@ -8,6 +8,8 @@ import magazines from '../image/magazines.jpg';
 import tabloid from '../image/tabloid.jpg';
 
 const Customer = () => {
+    
+
     return (
        <Layout>
         <h2>Some of Our Customers</h2>
@@ -32,7 +34,7 @@ const Customer = () => {
                     </div>
                 </Col>
             </Row>
-        </Container>
+        </Container>        
        </Layout> 
     )
 }
